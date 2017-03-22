@@ -1,0 +1,118 @@
+*{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+
+header{
+	display: inline-block;
+	width: 45%;
+}
+nav{
+	display: inline-block;
+	width: 45%;
+	text-align: right;
+}
+
+body{
+	font-family: PMingLiU,MingLiU,monospace;
+	position: relative;
+	width: 100%;
+}
+
+body>article{
+	float: left;
+	display: inline-block;
+	width: 45%;
+	margin: 10px;
+}
+
+.intro p{
+	line-height: 1.5em;
+	margin-bottom: 1.5em; 
+}
+
+aside{
+	display: relative;
+	float: right;
+	display: inline-block;
+	width: 45%;
+	margin: 10px;
+}
+
+aside>section{
+	display: inline-block;
+	width: 40%;
+	margin: 1em;
+}
+
+aside>section>h3{
+	font-size: 0.9em;
+}
+
+aside .photo{
+	max-width: 100%;
+	margin-bottom: 10px;
+}
+
+aside .photo:hover{
+	opacity: 0.5;
+}
+
+aside img{
+	float: left;
+	max-width: 20%;
+	margin-right: 10px;
+}
+
+aside em{
+	font-size: 1.5em;
+	color: green;
+}
+
+body a:active{
+	color: rgb(0,0,0);
+}
+
+body a:visited{
+	color: rgb(120,120,120);
+}
+
+body a:hover{
+	color: green;
+}
+
+.notice{
+	display: none;
+}
+
+.up{
+	display: inline-block;
+	margin: 2em;
+	width: 100%;
+}
+.up a{
+	margin-left: 80%;
+}
+
+footer{
+	display: inline-block;
+	margin:2em; 
+	width: 100%;
+	height: 20%;
+}
+
+footer .info, ul{
+	display: inline-block;
+	width: 40%;
+}
+
+footer ul{
+	list-style: none;
+	display: flex;
+	float: right;
+}
+
+footer img{
+	float: left;
+}
