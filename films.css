@@ -70,8 +70,9 @@ aside em{
 	color: green;
 }
 
-body a:active{
-	color: rgb(0,0,0);
+
+body a:link{
+	color: blue;
 }
 
 body a:visited{
@@ -81,6 +82,11 @@ body a:visited{
 body a:hover{
 	color: green;
 }
+
+body a:active{
+	color: rgb(50,50,50);
+}
+
 
 .notice{
 	display: none;
